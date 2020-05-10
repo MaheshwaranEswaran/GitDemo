@@ -27,6 +27,7 @@ public class StepDefinition {
 		 * Thread.sleep(2000);
 		 */
 		System.out.println("logging in");
+		System.out.println("Changes made in the GitDemo folder...");
 	}
 	@Then("^Homepage should be displayed$")
 	public void verifyHomePage() {
